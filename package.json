@@ -1,0 +1,27 @@
+{
+  "name": "minecraftbot",
+  "version": "1.0.0",
+  "description": "Minecraft bot using Mineflayer",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RockerJaxrules/Minecraftbot.git"
+  },
+  "keywords": [
+    "minecraft",
+    "bot",
+    "mineflayer"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^4.0.0",
+    "mineflayer-pathfinder": "^2.6.1",
+    "fs": "0.0.1-security",
+    "axios": "^0.21.1",
+    "querystring": "^0.2.0"
+  }
+}
